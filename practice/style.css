@@ -1,0 +1,9 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+    color: #616971; 
+}
+
+.top-bar {
+    background: #444545;
+}
