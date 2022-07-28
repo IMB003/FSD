@@ -5,5 +5,46 @@ body {
 }
 
 .top-bar {
-    background: #444545;
+    background: #a6ff00; 
+    height: 2.8rem;
+    padding: .5rem 0;
+}
+
+.top-bar a {
+    color: white;
+    text-decoration: none ;
+    font-size: 1.1rem;
+}   
+
+.navbar-brand img {
+    height: 3rem;
+
+}
+
+.navbar {
+    font-size: 1.15rem;
+    font-weight:600 ;
+    letter-spacing: .1rem;
+}
+
+.nav-item {
+    list-style: none;
+    padding: .5rem;
+    text-decoration: none ;
+    float:left;
+}
+
+.nav-link {
+    color: #5b5555!important;
+}
+
+.navbar-nav ml-auto{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+a{
+    text-decoration: none ;
+
 }
