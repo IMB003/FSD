@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA-Home</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(img/cam3.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        position: absolute;
+        left: 22px;
+        top: 20px;
+        display: inline-block;
+    }
+
+    .left img {
+        width: 150px;
+        line-height: 0px;
+    }
+
+    .mid {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 22px;
+        top: 30px;
+        display: inline-block;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        border: 2px solid black;
+        border-radius: 7px;
+        background:none;
+        color: black;
+        padding: 4px 14px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black
+    }
+
+    .btn:hover {
+        background-color: white;
+    }
+
+    .navbar {
+        color: white;
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 15px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 100px 30px;
+        padding: 20px 20px;
+        border-radius: 6px;
+        width: 400px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 300px;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 11px;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container button {
+        text-align: center;
+        display: block;
+        width: 315px;
+        padding: 6px;
+        border: 2px solid black;
+        border-radius: 5px;
+        margin: 20px;
+        background: none;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <!-- logo -->
+            <img src="img/logo1.png" alt="logo">
+
+        </div>
+        <center>
+        <div class="mid">
+            <ul class="navbar">
+                <center>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Explore</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </center>
+            </ul>
+        </div>
+    </center>
+        <div class="right">
+            <button class="btn"><a href="tel:8160880601">Call Us</a></button>
+            <button class="btn"><a href="mailto: boradvatsal83@gmail.com? subject=Enquiry Regarding Product">Email Us</a></button>
+        </div>
+    </header>
+    <center>
+    <div class="container">
+        <h2>Login/Sign Up</h2>
+        <form action="noaction">
+            <center>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter Your Username" id="">
+                <input type="password" name="" placeholder="Enter Your Password" id="">
+            </div>
+            <button class="btn">Submit</button>
+        </center>
+        </form>
+    </div>
+</center>
+</body>
+
+</html>
